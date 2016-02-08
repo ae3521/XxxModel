@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_hyC1wKlvEeWvLrtYmfbw_g" name="XxxModel"/>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_hyC1wKlvEeWvLrtYmfbw_g" name="XxxModel">
+  <packagedElement xmi:type="uml:Package" xmi:id="_mA20MM49EeWRdLa4dnOusQ" name="Associations"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_m11UYM49EeWRdLa4dnOusQ" name="Diagrams"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_nm6MAM49EeWRdLa4dnOusQ" name="Interfaces"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_pXHlYM49EeWRdLa4dnOusQ" name="Notifications"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_qRPEQM49EeWRdLa4dnOusQ" name="ObjectClasses"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_q-hoEM49EeWRdLa4dnOusQ" name="Rules"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_rmK24M49EeWRdLa4dnOusQ" name="TypeDefinitions"/>
+</uml:Model>
