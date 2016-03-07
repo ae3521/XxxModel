@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_hyC1wKlvEeWvLrtYmfbw_g" name="XxxModel">
-  <packagedElement xmi:type="uml:Package" xmi:id="_mA20MM49EeWRdLa4dnOusQ" name="Associations"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_m11UYM49EeWRdLa4dnOusQ" name="Diagrams"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_nm6MAM49EeWRdLa4dnOusQ" name="Interfaces"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_pXHlYM49EeWRdLa4dnOusQ" name="Notifications"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_qRPEQM49EeWRdLa4dnOusQ" name="ObjectClasses"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_q-hoEM49EeWRdLa4dnOusQ" name="Rules"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_rmK24M49EeWRdLa4dnOusQ" name="TypeDefinitions"/>
-</uml:Model>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:OpenModel_Profile="http:///schemas/OpenModel_Profile/_0tU-YNyQEeW6C_FaABjU5w/14" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/OpenModel_Profile/_0tU-YNyQEeW6C_FaABjU5w/14 ../OpenModelProfile/OpenModel_Profile.profile.uml#_0tZP0NyQEeW6C_FaABjU5w">
+  <uml:Model xmi:id="_hyC1wKlvEeWvLrtYmfbw_g" name="XxxModel">
+    <packagedElement xmi:type="uml:Package" xmi:id="_mA20MM49EeWRdLa4dnOusQ" name="Associations"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_m11UYM49EeWRdLa4dnOusQ" name="Diagrams">
+      <packagedElement xmi:type="uml:Class" xmi:id="_ZUNn0N9nEeWIlb4WrKEuCQ" name="Class1">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_SQuFAN9pEeWIlb4WrKEuCQ" name="Attribute1">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_WDz8IN9pEeWIlb4WrKEuCQ" name="1"/>
+        </ownedAttribute>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_nm6MAM49EeWRdLa4dnOusQ" name="Interfaces"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_pXHlYM49EeWRdLa4dnOusQ" name="Notifications"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_qRPEQM49EeWRdLa4dnOusQ" name="ObjectClasses"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_q-hoEM49EeWRdLa4dnOusQ" name="Rules"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_rmK24M49EeWRdLa4dnOusQ" name="TypeDefinitions"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Scph0M5KEeWRdLa4dnOusQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ry2vMN9nEeWIlb4WrKEuCQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ry2vMd9nEeWIlb4WrKEuCQ" key="Version" value="0.2.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ry2vMt9nEeWIlb4WrKEuCQ" key="Comment" value="Stereotypes extending more than one metaclass (Cond, Choice, PassedByReference) made optional."/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ry2vM99nEeWIlb4WrKEuCQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ry2vNN9nEeWIlb4WrKEuCQ" key="Date" value="2016-02-26"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ry2vNd9nEeWIlb4WrKEuCQ" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ScyrwM5KEeWRdLa4dnOusQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../OpenModelProfile/OpenModel_Profile.profile.uml#_0tZP0NyQEeW6C_FaABjU5w"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../OpenModelProfile/OpenModel_Profile.profile.uml#_m1xqsHBgEd6FKu9XX1078A"/>
+    </profileApplication>
+  </uml:Model>
+  <OpenModel_Profile:OpenModelClass xmi:id="_ZUOO4N9nEeWIlb4WrKEuCQ" base_Class="_ZUNn0N9nEeWIlb4WrKEuCQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_SQusEN9pEeWIlb4WrKEuCQ" base_StructuralFeature="_SQuFAN9pEeWIlb4WrKEuCQ"/>
+</xmi:XMI>
